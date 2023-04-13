@@ -1,14 +1,25 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-import { fetchData } from "../redux/quizSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchQuiz } from "../redux/slice/quizSlice";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { fetchTitle } from "../redux/slice/titleSlice";
 
 const Home = () => {
 	const dispatch = useDispatch();
+
+	useEffect(() => {
+		dispatch(fetchTitle());
+	}, [dispatch]);
+
+	const title = useSelector((state) => state.title.title);
+
+	console.log(window.location.pathname); //yields: "/js" (where snippets run)
+	console.log(window.location.href); //yields: "https://stacksnippets.net/js"
+
 	const navigate = useNavigate();
 
 	const handleButtonClick = (option) => {
-		dispatch(fetchData(option));
+		dispatch(fetchQuiz(option));
 
 		setTimeout(() => {
 			navigate("/quiz");
@@ -18,27 +29,14 @@ const Home = () => {
 	return (
 		<>
 			<div className="quiz-body">
-				<div
-					className="card"
-					onClick={() => handleButtonClick("html")}>
-					Html
-				</div>
-				<div
-					className="card"
-					onClick={() => handleButtonClick("css")}>
-					Css
-				</div>
-
-				<div
-					className="card"
-					onClick={() => handleButtonClick("javascript")}>
-					Javascript
-				</div>
-				<div
-					className="card"
-					onClick={() => handleButtonClick("react")}>
-					React.js
-				</div>
+				{title.map((title, index) => (
+					<div
+						key={index}
+						className="card"
+						onClick={() => handleButtonClick(title)}>
+						{title}
+					</div>
+				))}
 			</div>
 		</>
 	);

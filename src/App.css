@@ -61,10 +61,16 @@ nav h1 {
 }
 
 .quiz-container {
+	padding-top: 4rem;
 	display: flex;
 	align-items: center;
+	justify-content: start;
+	gap: 80px;
+	flex-direction: column;
 	height: calc(100vh - 65px);
 }
+
+
 
 .quiz {
 	display: grid;

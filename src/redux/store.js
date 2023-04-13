@@ -1,11 +1,19 @@
-import { configureStore } from "@reduxjs/toolkit";
-import quizReducer from "./quizSlice";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import quizReducer from "./slice/quizSlice";
+import titleReducer from "./slice/titleSlice";
 
-// Create the Redux store
+
+const rootReducer = combineReducers({
+	title: titleReducer,
+	quiz: quizReducer,
+});
+
 const store = configureStore({
-	reducer: {
-		quiz: quizReducer,
-	},
+	reducer: rootReducer,
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: false,
+		}),
 });
 
 export default store;

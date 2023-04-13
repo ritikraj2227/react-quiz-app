@@ -6,9 +6,10 @@ const initialState = {
 	quiz: [],
 	error: null,
 	isLoading: false,
+	title: null,
 };
 
-export const fetchData = createAsyncThunk("data/fetchData", async (option, { rejectWithValue }) => {
+export const fetchQuiz = createAsyncThunk("data/fetchQuiz", async (option, { rejectWithValue }) => {
 	try {
 		const response = await axios.get(`http://localhost:5000/${option}`);
 		return response.data;
@@ -23,15 +24,17 @@ const quizSlice = createSlice({
 	reducers: {},
 	extraReducers: (builder) => {
 		builder
-			.addCase(fetchData.pending, (state) => {
+			.addCase(fetchQuiz.pending, (state, action) => {
 				state.isLoading = true;
 				state.error = null;
+				state.title = action.meta.arg;
+				console.log(state.title);
 			})
-			.addCase(fetchData.fulfilled, (state, action) => {
+			.addCase(fetchQuiz.fulfilled, (state, action) => {
 				state.isLoading = false;
 				state.quiz = action.payload;
 			})
-			.addCase(fetchData.rejected, (state, action) => {
+			.addCase(fetchQuiz.rejected, (state, action) => {
 				state.isLoading = false;
 				state.error = action.payload;
 			});

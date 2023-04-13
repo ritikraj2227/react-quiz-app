@@ -1,4 +1,5 @@
 {
+	"quizTitle": ["html", "css", "javascript", "react"],
 	"html": [
 		{
 			"questionText": "What does HTML stand for?",

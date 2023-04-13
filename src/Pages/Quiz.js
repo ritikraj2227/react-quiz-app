@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Quiz = () => {
 	const navigate = useNavigate();
 	const data = useSelector((state) => state.quiz.quiz);
+	const title = useSelector((state) => state.quiz.title);
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 	const [showScore, setShowScore] = useState(false);
@@ -35,6 +36,7 @@ const Quiz = () => {
 	}
 	return (
 		<div className="quiz-container">
+			<h2>{title.toUpperCase()} Quiz</h2>
 			{showScore ? (
 				<div className="score-section">
 					<h2>
