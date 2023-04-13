@@ -1,0 +1,371 @@
+{
+	"html": [
+		{
+			"questionText": "What does HTML stand for?",
+			"answerOptions": [
+				{ "answerText": "HyperText Marking Language", "isCorrect": false },
+				{ "answerText": " HyperText Machine Language", "isCorrect": false },
+				{ "answerText": "HyperText Markup Language", "isCorrect": true },
+				{ "answerText": "HighText Marking Language", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": " Which of the following is used to read an HTML page and render it?",
+			"answerOptions": [
+				{ "answerText": "Web server", "isCorrect": false },
+				{ "answerText": " Web browser", "isCorrect": true },
+				{ "answerText": "Web matrix", "isCorrect": false },
+				{ "answerText": "Web network", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "Which of the following HTML tag is used to create an unordered list?",
+			"answerOptions": [
+				{ "answerText": " <ol> ", "isCorrect": false },
+				{ "answerText": " <ul>", "isCorrect": true },
+				{ "answerText": " <li>", "isCorrect": false },
+				{ "answerText": "<ll>", "isCorrect": false }
+			]
+		},
+
+		{
+			"questionText": "Which of the following tag is used for inserting the largest heading in HTML?",
+			"answerOptions": [
+				{ "answerText": "head", "isCorrect": false },
+				{ "answerText": "<h1>", "isCorrect": true },
+				{ "answerText": "<h6>", "isCorrect": false },
+				{ "answerText": "heading", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "In which part of the HTML metadata is contained?",
+			"answerOptions": [
+				{ "answerText": "html tag", "isCorrect": false },
+				{ "answerText": "head tag", "isCorrect": true },
+				{ "answerText": "title tag", "isCorrect": false },
+				{ "answerText": " body tag", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How do we write comments in HTML?",
+			"answerOptions": [
+				{ "answerText": "</…….>", "isCorrect": false },
+				{ "answerText": "</……/>", "isCorrect": false },
+				{ "answerText": "<…….!>", "isCorrect": false },
+				{ "answerText": "<!……>", "isCorrect": true }
+			]
+		},
+		{
+			"questionText": "Which of the following is not the element associated with the HTML table layout?",
+			"answerOptions": [
+				{ "answerText": "color", "isCorrect": true },
+				{ "answerText": "alignment", "isCorrect": false },
+				{ "answerText": "size", "isCorrect": false },
+				{ "answerText": "spanning", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "Which HTML tag is used to insert an image?",
+			"answerOptions": [
+				{ "answerText": "<img url=”htmllogo.jpg” />", "isCorrect": false },
+				{ "answerText": "<img alt=”htmllogo.jpg” />", "isCorrect": false },
+				{ "answerText": "<img src=”htmllogo.jpg” />", "isCorrect": true },
+				{ "answerText": "<img link=”htmllogo.jpg” />", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "HTML is a subset of ?",
+			"answerOptions": [
+				{ "answerText": "SGMT", "isCorrect": false },
+				{ "answerText": "SGML", "isCorrect": true },
+				{ "answerText": "SGME", "isCorrect": false },
+				{ "answerText": "XHTML", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": " Which tag is used to create a dropdown in HTML Form?",
+			"answerOptions": [
+				{ "answerText": "<input>", "isCorrect": false },
+				{ "answerText": "<select>", "isCorrect": true },
+				{ "answerText": "<text>", "isCorrect": false },
+				{ "answerText": "<textarea>", "isCorrect": false }
+			]
+		}
+	],
+	"css": [
+		{
+			"questionText": "What is the correct syntax for writing comments in CSS?",
+			"answerOptions": [
+				{ "answerText": "/* ... */", "isCorrect": true },
+				{ "answerText": "// ...", "isCorrect": false },
+				{ "answerText": "<!-- ... -->", "isCorrect": false },
+				{ "answerText": "// ... //", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How can you apply an external CSS file to an HTML document?",
+			"answerOptions": [
+				{ "answerText": "<link rel='stylesheet' href='style.css'>", "isCorrect": true },
+				{ "answerText": "<style src='style.css'>", "isCorrect": false },
+				{ "answerText": "<style rel='stylesheet' src='style.css'>", "isCorrect": false },
+				{ "answerText": "<link href='style.css'>", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "Which CSS property is used to control the spacing between elements?",
+			"answerOptions": [
+				{ "answerText": "padding", "isCorrect": true },
+				{ "answerText": "margin", "isCorrect": false },
+				{ "answerText": "border", "isCorrect": false },
+				{ "answerText": "float", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the default value of the 'position' property in CSS?",
+			"answerOptions": [
+				{ "answerText": "static", "isCorrect": true },
+				{ "answerText": "relative", "isCorrect": false },
+				{ "answerText": "absolute", "isCorrect": false },
+				{ "answerText": "fixed", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "Which CSS selector selects all the elements with a certain class name?",
+			"answerOptions": [
+				{ "answerText": ".classname", "isCorrect": true },
+				{ "answerText": "#classname", "isCorrect": false },
+				{ "answerText": "classname", "isCorrect": false },
+				{ "answerText": "*classname", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How can you center an element horizontally in CSS?",
+			"answerOptions": [
+				{ "answerText": "margin: 0 auto;", "isCorrect": true },
+				{ "answerText": "text-align: center;", "isCorrect": false },
+				{ "answerText": "float: center;", "isCorrect": false },
+				{ "answerText": "position: center;", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the purpose of the 'display' property in CSS?",
+			"answerOptions": [
+				{ "answerText": "To control how an element is rendered", "isCorrect": true },
+				{ "answerText": "To specify the background color of an element", "isCorrect": false },
+				{ "answerText": "To define the font size of an element", "isCorrect": false },
+				{ "answerText": "To set the height and width of an element", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the purpose of the 'z-index' property in CSS?",
+			"answerOptions": [
+				{ "answerText": "To specify the stack order of elements", "isCorrect": true },
+				{ "answerText": "To control the opacity of an element", "isCorrect": false },
+				{ "answerText": "To set the height and width of an element", "isCorrect": false },
+				{ "answerText": "To align elements vertically", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How can you apply a specific style to the first child element of a parent element in CSS?",
+			"answerOptions": [
+				{ "answerText": ":first-child", "isCorrect": true },
+				{ "answerText": ":nth-child(1)", "isCorrect": false },
+				{ "answerText": ":last-child", "isCorrect": false },
+				{ "answerText": ":only-child", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How do you add a border to an element in CSS?",
+			"answerOptions": [
+				{ "answerText": "border: 1px solid #000;", "isCorrect": true },
+				{ "answerText": "border: #000 1px solid;", "isCorrect": false },
+				{ "answerText": "border-style: solid; border-width: 1px; border-color: #000;", "isCorrect": false },
+				{ "answerText": "border: 1px #000 solid;", "isCorrect": false }
+			]
+		}
+	],
+	"javascript": [
+		{
+			"questionText": "How do you declare a variable in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "var x;", "isCorrect": true },
+				{ "answerText": "x = var;", "isCorrect": false },
+				{ "answerText": "var x =;", "isCorrect": false },
+				{ "answerText": "x = var x;", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the correct way to define a function in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "function: myFunction()", "isCorrect": false },
+				{ "answerText": "function myFunction()", "isCorrect": true },
+				{ "answerText": "myFunction(): function", "isCorrect": false },
+				{ "answerText": "function = myFunction()", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How do you add a comment in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "// This is a comment", "isCorrect": true },
+				{ "answerText": "/* This is a comment */", "isCorrect": false },
+				{ "answerText": "<!-- This is a comment -->", "isCorrect": false },
+				{ "answerText": "comment: This is a comment", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the correct way to write a conditional statement in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "if = x then", "isCorrect": false },
+				{ "answerText": "if (x === y)", "isCorrect": true },
+				{ "answerText": "if x = y", "isCorrect": false },
+				{ "answerText": "if = x == y", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the output of the following JavaScript code?\nconsole.log(1 + '1');",
+			"answerOptions": [
+				{ "answerText": "2", "isCorrect": false },
+				{ "answerText": "'11'", "isCorrect": true },
+				{ "answerText": "'2'", "isCorrect": false },
+				{ "answerText": "11", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the correct way to loop through an array in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "for (i = 0; i <= arr.length; i++)", "isCorrect": false },
+				{ "answerText": "for (i = 0; i < arr.length; i++)", "isCorrect": true },
+				{ "answerText": "for (i = 1; i <= arr.length; i++)", "isCorrect": false },
+				{ "answerText": "for (i = 0; i < arr.length - 1; i++)", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the scope of a variable declared with 'let' in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "Global scope", "isCorrect": false },
+				{ "answerText": "Function scope", "isCorrect": false },
+				{ "answerText": "Block scope", "isCorrect": true },
+				{ "answerText": "Local scope", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What does the 'typeof' operator in JavaScript return?",
+			"answerOptions": [
+				{ "answerText": "The type of a variable", "isCorrect": true },
+				{ "answerText": "The value of a variable", "isCorrect": false },
+				{ "answerText": "The length of a string", "isCorrect": false },
+				{ "answerText": "The index of an element in an array", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How do you concatenate two strings in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "str1 + str2", "isCorrect": true },
+				{ "answerText": "str1 .concat(str2)", "isCorrect": false },
+				{ "answerText": "str1 - str2", "isCorrect": false },
+				{ "answerText": "str1 * str2", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "Which of the following is not a JavaScript data type?",
+			"answerOptions": [
+				{ "answerText": "String", "isCorrect": false },
+				{ "answerText": "Boolean", "isCorrect": false },
+				{ "answerText": "Float", "isCorrect": true },
+				{ "answerText": "Number", "isCorrect": false }
+			]
+		}
+	],
+	"react": [
+		{
+			"questionText": "What is the correct syntax to write a comment in JavaScript?",
+			"answerOptions": [
+				{ "answerText": "// This is a comment", "isCorrect": true },
+				{ "answerText": "/* This is a comment */", "isCorrect": false },
+				{ "answerText": "<!-- This is a comment -->", "isCorrect": false },
+				{ "answerText": "# This is a comment", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the proper way to write a comment in CSS?",
+			"answerOptions": [
+				{ "answerText": "// This is a comment", "isCorrect": false },
+				{ "answerText": "/* This is a comment */", "isCorrect": true },
+				{ "answerText": "<!-- This is a comment -->", "isCorrect": false },
+				{ "answerText": "# This is a comment", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How can you write a comment in JSX (React's JavaScript extension)?",
+			"answerOptions": [
+				{ "answerText": "// This is a comment", "isCorrect": false },
+				{ "answerText": "/* This is a comment /", "isCorrect": false },
+				{ "answerText": "<!-- This is a comment -->", "isCorrect": false },
+				{ "answerText": "{/ This is a comment */}", "isCorrect": true }
+			]
+		},
+		{
+			"questionText": "In React, what is the purpose of the 'render()' method?",
+			"answerOptions": [
+				{ "answerText": "To update the state of a component", "isCorrect": false },
+				{ "answerText": "To define the initial state of a component", "isCorrect": false },
+				{ "answerText": "To render the output of a component", "isCorrect": true },
+				{ "answerText": "To handle events in a component", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the proper way to define a propType for a prop in React?",
+			"answerOptions": [
+				{ "answerText": "propTypes = { propType: 'type' }", "isCorrect": false },
+				{ "answerText": "React.propTypes = { propType: 'type' }", "isCorrect": false },
+				{ "answerText": "React.PropTypes = { propType: 'type' }", "isCorrect": false },
+				{ "answerText": "PropTypes = { propType: 'type' }", "isCorrect": true }
+			]
+		},
+		{
+			"questionText": "How do you define state in a React component?",
+			"answerOptions": [
+				{ "answerText": "state = { stateName: 'initialValue' }", "isCorrect": false },
+				{ "answerText": "React.state = { stateName: 'initialValue' }", "isCorrect": false },
+				{ "answerText": "this.state = { stateName: 'initialValue' }", "isCorrect": true },
+				{ "answerText": "setState = { stateName: 'initialValue' }", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the purpose of 'props' in a React component?",
+			"answerOptions": [
+				{ "answerText": "To define the initial state of a component", "isCorrect": false },
+				{ "answerText": "To update the state of a component", "isCorrect": false },
+				{ "answerText": "To pass data from a parent component to a child component", "isCorrect": true },
+				{ "answerText": "To handle events in a component", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "How can you pass data from a parent component to a child component in React?",
+			"answerOptions": [
+				{ "answerText": "Using state", "isCorrect": false },
+				{ "answerText": "Using props", "isCorrect": true },
+				{ "answerText": "Using ref", "isCorrect": false },
+				{ "answerText": "Using context", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the purpose of 'setState()' method in React?",
+			"answerOptions": [
+				{ "answerText": "To define the initial state of a component", "isCorrect": false },
+				{ "answerText": "To update the state of a component", "isCorrect": true },
+				{ "answerText": "To pass data from a parent component to a child component", "isCorrect": false },
+				{ "answerText": "To handle events in a component", "isCorrect": false }
+			]
+		},
+		{
+			"questionText": "What is the purpose of 'componentDidMount()' lifecycle method in React?",
+			"answerOptions": [
+				{ "answerText": "To define the initial state of a component", "isCorrect": false },
+				{ "answerText": "To update the state of a component", "isCorrect": false },
+				{ "answerText": "To handle events in a component", "isCorrect": false },
+				{ "answerText": "To perform actions after a component has been rendered to the DOM", "isCorrect": true }
+			]
+		}
+	]
+}
