@@ -13,8 +13,6 @@ const Home = () => {
 
 	const title = useSelector((state) => state.title.title);
 
-	console.log(window.location.pathname); //yields: "/js" (where snippets run)
-	console.log(window.location.href); //yields: "https://stacksnippets.net/js"
 
 	const navigate = useNavigate();
 

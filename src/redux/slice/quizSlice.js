@@ -28,11 +28,11 @@ const quizSlice = createSlice({
 				state.isLoading = true;
 				state.error = null;
 				state.title = action.meta.arg;
-				console.log(state.title);
 			})
 			.addCase(fetchQuiz.fulfilled, (state, action) => {
 				state.isLoading = false;
 				state.quiz = action.payload;
+				// console.log(action);
 			})
 			.addCase(fetchQuiz.rejected, (state, action) => {
 				state.isLoading = false;
