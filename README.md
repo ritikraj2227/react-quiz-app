@@ -7,7 +7,7 @@
 ### Copy This Repository  
 
 ```
-git clone https://github.com/ritikraj2227/Todo_app_React
+git clone https://github.com/ritikraj2227/react-quiz-app
 ```
 
 ### Install dependencies
